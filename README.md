@@ -42,6 +42,7 @@ $export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || p
 # development
 $ npm run start
 
+
 # watch mode
 $ npm run start:dev
 
