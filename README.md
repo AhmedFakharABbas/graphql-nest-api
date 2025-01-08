@@ -48,11 +48,13 @@ npm -v
 ```
 ## Install Git and clone repository from GitHub
   <p> To install git, run below commands in the terminal window</p>
-```bash
-sudo apt-get update -y
-```
+  ```bash
+      sudo apt-get update -y
+   ```
+
 ```bash
 sudo apt-get install git -y
+
 ```
   <p> verify if   git installed correctlhy</p>
   <p> This command will print the git version in the terminal.</p>
