@@ -48,9 +48,11 @@ npm -v
 ```
 ## Install Git and clone repository from GitHub
   <p> To install git, run below commands in the terminal window</p>
-  ```bash
-      sudo apt-get update -y
-   ```
+  
+```bash
+sudo apt-get update -y
+
+```
 
 ```bash
 sudo apt-get install git -y
@@ -63,15 +65,18 @@ sudo apt-get install git -y
 git — version
 ```
   <p>  clone the code repository from Github</p>
+  
 ```bash
 git clone https://github.com/yeshwanthlm/nodejs-on-ec2.git
 ```
   <p>  Lets move to the project directory</p>
+  
 ```bash
 cd nodejs-on-ec2
 npm install
 ```
   <p> Lets start the prject</p>
+  
 ```bash
 npm start
 ```
