@@ -46,33 +46,34 @@ node -v
 ```bash
 npm -v
 ```
-
-## Running the app
+## Install Git and clone repository from GitHub
+  <p> To install git, run below commands in the terminal window</p>
+```bash
+sudo apt-get update -y
+```
+```bash
+sudo apt-get install git -y
+```
+  <p> verify if   git installed correctlhy</p>
+  <p> This command will print the git version in the terminal.</p>
 
 ```bash
-# development
-$ npm run start
-
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+git — version
 ```
-
-## Test
-
+  <p>  clone the code repository from Github</p>
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+git clone https://github.com/yeshwanthlm/nodejs-on-ec2.git
 ```
+  <p>  Lets move to the project directory</p>
+```bash
+cd nodejs-on-ec2
+npm install
+```
+  <p> Lets start the prject</p>
+```bash
+npm start
+```
+
 
 ## Support
 
@@ -80,9 +81,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Ahmed Fakhar Abbas]
+- Website - [https://thecodemood.com](https://thecodemood.com/)
+- Twitter - [@AhmedFakhaAbbas](https://x.com/AhmedFakhaAbbas)
 
 ## License
 
