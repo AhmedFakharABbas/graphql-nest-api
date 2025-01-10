@@ -38,7 +38,7 @@ git — version
   <p>  clone the code repository from Github</p>
   
 ```bash
-git clone https://github.com/yeshwanthlm/nodejs-on-ec2.git
+https://github.com/AhmedFakharABbas/GQLNestAPI.git
 ```
   <p>  Lets move to the project directory</p>
   
