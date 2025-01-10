@@ -38,7 +38,7 @@ git — version
   <p>  clone the code repository from Github</p>
   
 ```bash
-https://github.com/AhmedFakharABbas/GQLNestAPI.git
+git clone https://github.com/AhmedFakharABbas/GQLNestAPI.git
 ```
   <p>  Lets move to the project directory</p>
   
