@@ -1,3 +1,10 @@
+## Update the System and Install Dependencies
+Update and upgrade the instance:
+```bash
+sudo apt update && sudo apt upgrade -y
+
+```
+
 ## Installation of Node and NPM  using NVM
 
 ```sudo su -
