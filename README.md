@@ -1,4 +1,3 @@
-
 ## Installation of Node and NPM  using NVM
 
 ```sudo su -
