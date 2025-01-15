@@ -16,7 +16,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```bash
 . ~/.nvm/nvm.sh 
 ```
+```bash
+nvm i 20
+```
   <p> Confirm the node and npm is correctly installed</p>
+  
 
 ```bash
 node -v
