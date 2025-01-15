@@ -46,7 +46,7 @@ git — version
   <p>  clone the code repository from Github</p>
   
 ```bash
-git clone https://github.com/AhmedFakharABbas/GQLNestAPI.git
+git clone https://github.com/AhmedFakharABbas/graphql-nest-api.git
 ```
   <p>  Lets move to the project directory</p>
   
