@@ -9,8 +9,7 @@ sudo apt update && sudo apt upgrade -y
 ## Installation of Node and NPM  using NVM
 
 ```sudo su -
-sudo su -
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
   <p>This will  loads nvm.</p>
 
