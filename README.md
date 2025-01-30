@@ -63,7 +63,6 @@ npm install
 npm start
 ```
 
-
 ## Stay in touch
 
 - Author - Ahmed Fakhar Abbas
