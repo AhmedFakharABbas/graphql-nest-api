@@ -69,8 +69,3 @@ npm start
 - Website - [https://thecodemood.com](https://thecodemood.com/)
 - Twitter - [@AhmedFakhaAbbas](https://x.com/AhmedFakhaAbbas)
 - YouTube - [@ThecodeMoodOffical](https://www.youtube.com/@ThecodeMoodOffical)
-
-  
-## License
-
-Nest is [MIT licensed](LICENSE).
