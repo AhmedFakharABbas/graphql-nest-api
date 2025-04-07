@@ -6,6 +6,7 @@ sudo apt update && sudo apt upgrade -y
 
 ```
 
+
 ## Installation of Node and NPM  using NVM
 
 ```sudo su -
