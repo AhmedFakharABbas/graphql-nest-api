@@ -1,0 +1,31 @@
+services:
+  rabbitmq:
+    image: bitnami/rabbitmq:3.12.12-debian-11-r15
+    container_name: rabbitmq
+    ports:
+      - "8080:15672"
+      - "5672:5672"
+      - '4369:4369'
+      - '5551:5551'
+      - '5552:5552'
+      - '25672:25672'
+    environment:
+      - RABBITMQ_USERNAME=guest
+      - RABBITMQ_PASSWORD=guest
+      - RABBITMQ_MANAGEMENT_ALLOW_WEB_ACCESS=true
+      - RABBITMQ_SECURE_PASSWORD=yes
+      - RABBITMQ_LOGS=-
+  mongodb:
+    image: ghcr.io/nzbr/mongo-replica-set:master
+    container_name: mongodb
+    environment:
+      DB1_PORT: 27017
+    volumes:
+      - "mongo1:/var/lib/mongo1"
+    ports:
+      - 27017:27017
+
+volumes:
+  mongo1: {}
+  mongo2: {}
+  mongo3: {}
